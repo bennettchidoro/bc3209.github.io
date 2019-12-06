@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "30 for 30"
 date:   2019-11-23 23:34:39 -0500
-post_excerpt: This is the introduction to my first blog post
+post_excerpt:  I just want to say thank you for everything and that without you I wouldn't be here today.
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
