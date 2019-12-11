@@ -1,48 +1,50 @@
 <!doctype html>
 <html class="no-js" lang="en">
-{% include head.html  %}
 
-<body class="black-90 sans-serif">
-  {% include header.html %}
+  {% include head.html  %}
 
-  <div class="black-90 b f2 mw7 mh4 mv5 lh-title">
-    <p>Can we just take a minute to shoutout books 📚?! I can sum up what
-      books have done and continue to do for me, but instead, I'll just share
-      this powerful quote from <a class="purple dim" href="https://en.wikipedia.org/wiki/Malcolm_X">Malcolm X.</a>
-    </p>
+  <body class="black-90 sans-serif">
 
-    <div class="pa3">
-      <blockquote class="ml0 mt0 pl4 black-90 bl bw2 b--purple">
-        <p class="f5 f4-m f3-l lh-copy measure mt0">
-          “I knew right there in prison that reading had changed forever the
-          course of my life. As I see it today, the ability to read awoke inside
-          me some long dormant craving to be mentally alive…My homemade education
-          gave me, with every additional book that I read, a little bit more
-          sensitivity to the deafness, dumbness, and blindness that was
-          afflicting the black race in America.” And when later asked by an
-          English writer, “What’s your alma mater?” he simply replied, “Books.”
-        </p>
-        <cite class="f5 ttu tracked fs-normal">―Malcolm X</cite>
-      </blockquote>
+    {% include header.html %}
+
+    <div class="black-90 b f2 mw7 mh4 mv5 lh-title">
+      <p>Can we just take a minute to shoutout books 📚?! I can sum up what
+        books have done and continue to do for me, but instead, I'll just share
+        this powerful quote from <a class="purple dim" href="https://en.wikipedia.org/wiki/Malcolm_X">Malcolm X.</a>
+      </p>
+
+      <div class="pa3">
+        <blockquote class="ml0 mt0 pl4 black-90 bl bw2 b--purple">
+          <p class="f5 f4-m f3-l lh-copy measure mt0">
+            “I knew right there in prison that reading had changed forever the
+            course of my life. As I see it today, the ability to read awoke inside
+            me some long dormant craving to be mentally alive…My homemade education
+            gave me, with every additional book that I read, a little bit more
+            sensitivity to the deafness, dumbness, and blindness that was
+            afflicting the black race in America.” And when later asked by an
+            English writer, “What’s your alma mater?” he simply replied, “Books.”
+          </p>
+          <cite class="f5 ttu tracked fs-normal">―Malcolm X</cite>
+        </blockquote>
+      </div>
     </div>
-  </div>
-  <div>
+    <div>
 
-    {% for book in site.data.books %}
+      {% for book in site.data.books %}
 
-    <ul class="list pa0 mh4">
-      <li class="mb4">
-        <p class="f2 mb1 b db purple no-underline">{{book.title}}</p>
-        <div class="f4 mb1 black-70">{{book.author}}</div>
-        <div class="f5 light-purple">{{book.status}}</div>
-      </li>
-    </ul>
+      <ul class="list pa0 mh4">
+        <li class="mb4">
+          <p class="f2 mb1 b db purple no-underline">{{book.title}}</p>
+          <div class="f4 mb1 black-70">{{book.author}}</div>
+          <div class="f5 light-purple">{{book.status}}</div>
+        </li>
+      </ul>
 
-    {% endfor %}
+      {% endfor %}
 
-  </div>
+    </div>
 
-  {% include footer.html %}
+    {% include footer.html %}
 
-</body>
+  </body>
 </html>

@@ -1,8 +1,11 @@
 <!Doctype html>
 <html class="no-js" lang="en">
+
   {% include head.html %}
   <body class="black-90 sans-serif">
+
     {% include header.html %}
+
     <div class="black-90 b f2 mw7 mh4 mv5 lh-title">
       <p>Peace! ✌️🙂</p>
       <p>I'm Bennett Chidoro.  Other names that have graciously been given to me by my beautiful friends are Benny, Benito, and b (not to be confused with B).</p>
@@ -12,16 +15,20 @@
       <p>I decided to go with a <a class="purple dim" href="https://en.wikipedia.org/wiki/Plant-based_diet">plant-based</a> 🌱diet after a two-week vegan challenge that I started back on March 13th, 2017. Now my diet consists primarily of <a class="purple dim" href="https://en.wikipedia.org/wiki/Whole_food">whole foods</a> and I continue to live this way due to health reasons.</p>
       <p>I was born on <a class="purple dim" href="https://cafeastrology.com/articles/capricornmanlove.html"> January </a>17th, 1989 ♑️ in Lowell, Massachusetts. When I was 10, my family relocated to Central Florida and this is where I spent most of my years up until I was 20.</p>
     </div>
+
     <div class="mw7">
       <h2 class="black-90 mh4 pa0">Recent Posts</h2>
 
       {% for post in site.posts limit:5 %}
+
       <ul class="list pa0 mh4">
         <li class="mb4">
           <a href="{{ post.url }}" class="f4 mb1 b db purple no-underline underline-hover">{{ post.title }}</a>
           <div>{{ post.date }}</div>
           <div class="lh-copy mt2 measure-wide">
+
             {{ post.post_excerpt }}
+
           </div>
         </li>
       </ul>
@@ -30,6 +37,8 @@
 
       <div class="ml4"><a class="purple f4 dim" href="/archive">Archive</a> →</div>
     </div>
+
     {% include footer.html %}
+
   </body>
 </html>
