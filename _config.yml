@@ -39,5 +39,8 @@ compress_html:
   blanklines: false
   profile: false
 
+# Content settings
+permalink: pretty
+
 # Custom Vars
 branch: master # the branch my live site is deployed to.
