@@ -44,3 +44,5 @@ permalink: pretty
 
 # Custom Vars
 branch: master # the branch my live site is deployed to.
+
+github: [metadata]
