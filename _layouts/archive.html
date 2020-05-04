@@ -14,7 +14,7 @@
       <ul class="list pa0 mh4">
         <li class="mb4">
           <a href="{{ post.url }}" class="f3 mb1 b db purple no-underline underline-hover">{{ post.title }}</a>
-          <div class="f5 black-70">{{ post.date }}</div>
+          <div class="f5 black-70">{{ post.date | date: '%B %d, %Y' }}</div>
           <div class="f4 lh-copy mt2 measure-wide">
 
             {{ post.post_excerpt }}
