@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No Look Pass
-post_excerpt: Just some of my thoughts on the no-look pass.
+post_excerpt: Just some of my thoughts on the "no look" pass.
 date: 2020-04-30T01:20:13AM
 ---
 
